@@ -1,0 +1,54 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #555;
+}
+.container{
+    max-width:800px;
+    margin: auto;
+}
+header {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+label {
+  display: block;
+}
+button{
+    padding: 0.3rem;
+    border-radius: .5rem;
+}
+li{
+    margin: .5rem;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+table {
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 1px solid #555;
+  padding: 0.6rem;
+}
+th{
+    font-size: .8rem;
+}
+tr:nth-child(2),
+tr:nth-child(3) {
+  background-color: rgb(255, 161, 161);
+}
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}

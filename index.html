@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator wyborczy</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Kalkulator wyborczy</h1>
+      </header>
+      <main>
+        <form>
+          <label for="electoralName"
+            >Nazwa ugrupowania:
+            <input type="text" id="electoralName" name="electoralName"
+          /></label>
+          <label for="isCoalition"
+            >Czy jest koalicją:
+            <input type="checkbox" id="isCoalition" name="isCoalition"
+          /></label>
+          <label for="numberOfVotes"
+            >Ilość głosów:
+            <input type="number" id="numberOfVotes" name="numberOfVotes"
+          /></label>
+          <div>
+            <button id="next">Dodaj kolejne ugrupowanie</button>
+            <button id="calc">Sprawdź wynik procentowy</button>
+          </div>
+        </form>
+        <ol id="electoralList">
+          
+        </ol>
+      </main>
+      <section id="results">
+        <h2>Wyniki wyborów</h2>
+        <table id="electoralTable">
+
+        </table>
+        <p>...</p>
+      </section>
+      <footer>
+        <p>&copy; Me</p>
+      </footer>
+    </div>
+  </body>
+</html>
